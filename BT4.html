@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function fibonacci () {
+        let a = 1;
+        let b = 1;
+        let c = a + b;
+        let count = 2;
+        sum = 0;
+        while (count<20){
+            c = a + b;
+            a = b;
+            b = c;
+            sum += c;
+            count++
+        }
+        document.write("tổng của 20 số là : " + sum )
+    }
+    fibonacci()
+</script>
+
+</body>
+</html>
